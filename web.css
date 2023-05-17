@@ -38,11 +38,16 @@ body{
     font-style: italic;
     color: rgb(14, 161, 166);
 }
+.navs {
+    position: sticky;
+    top: 0px;
+}
 
 
 
 .about{
-    padding: 20px 5% 5px 5%;
+    padding: 5% 5% 5% 5%;
+    background-color: rgb(222, 235, 246);
 }
 ol{
     list-style-type: disc;
@@ -52,9 +57,10 @@ ol{
     width: 40%;
     height: auto;
     border-radius: 6px;
-    padding:10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     align-self: center;
     margin-left: 16%;
+    margin-top: 5%;
 
 }
 .qualification{
@@ -63,7 +69,15 @@ ol{
     height: auto;
     border-radius: 6px;
     align-self: center;
-    margin-top: 3vh;
+    margin-top: 4%;
     margin-left: 40%;
+
    
+}
+.know{
+    margin-left: 24%;
+    margin-top: 10%;
+}
+.know h3 {
+    text-align: center;
 }
