@@ -14,13 +14,14 @@ body{
     background-color: lightblue;
 }
 .dp{
-    padding-left: 25vw;
+    padding-left: 30vw;
     align-self: center;
 }
 .dp img {
     border-radius: 100%;
     width: 18vw;
     border: 8px dotted rgb(131, 160, 155);
+    margin-left: 25vw;
 }
 .name{
     align-self: center;
@@ -80,6 +81,10 @@ ol{
 }
 .know h3 {
     text-align: center;
+}
+#contact{
+    margin-left: 3%;
+    margin-top: 3%;
 }
 .contact{
     width: 500px;
