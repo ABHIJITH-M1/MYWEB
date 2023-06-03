@@ -17,16 +17,53 @@ body{
     padding-left: 30vw;
     align-self: center;
 }
+@media screen and (max-width:575px) {
+    .container-fluid{
+        height: 200px;
+    }
+}
 .dp img {
     border-radius: 100%;
     width: 18vw;
     border: 8px dotted rgb(131, 160, 155);
     margin-left: 25vw;
 }
+@media screen and (max-width:575px) {
+    .dp{
+        padding: 0%;
+        height: fit-content;
+        padding-left: auto;
+        padding-bottom: 0%;
+        padding-right: auto;
+        margin-bottom: 0%;
+        
+    }
+}
+
+@media screen and (max-width:575px) {
+    .dp img{
+        width: 150px;
+        margin-top: 30px;
+        border-style: none;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+    }
+}
 .name{
     align-self: center;
     
 }
+@media screen and ( max-width: 575px){
+    .name{
+        height: fit-content;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+
+}
+    
 .name h1 {
     font-family: cursive;
     font-weight: bold;
